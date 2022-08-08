@@ -1,5 +1,9 @@
 # Fundamentos de Desenvolvimento de Software 
 
+<p align="center">
+<img alt="imagem do projeto" src="assets/mypage.png" width="100%">
+</p>
+
 ## 💻 TP1 - Programação Web com HTML5 e CSS3
 
 Esse projeto foi desenvolvido com a seguinte tecnologia:

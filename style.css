@@ -1,4 +1,139 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
   height: 100%;
   width: 100%;
+  background-attachment: fixed;
+  background: #202024;
+  color: #FFFFFF;
 }
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 165px;
+  padding-right: 186px;
+  
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 5px;   
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  flex: 0 0 30%;
+}
+
+p, details {
+  font-family: 'Poppins', sans-serif;
+  color:#F9F9F9;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color:#F9F9F9;
+  line-height: 74.12px;
+  width: 95%;
+  margin-bottom: 25px;
+}
+
+.conteudo-principal-imagem {
+  height: 550px;
+  transition: .3s;
+  display: inline-block;
+}
+.conteudo-principal-imagem:hover {
+  transform: translateY(-50px);
+}
+
+
+.logo {
+  font: 700 2rem 'Poppins', sans-serif;
+  color: #C692E4;
+  height: 4.5rem;
+}
+
+.logo span {
+  color: #FFC397;
+}
+
+.navigation {
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.navigation img {
+  width: 30px;
+  height: 30px;
+}
+
+.navigation img:hover {
+  color: #C692E4;
+}
+
+/* --- BUTTONS --- */
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: #F9F9F9;
+  background-color: transparent;
+  border: 1px solid #C692E4;
+  transform: skew(-30deg);
+  cursor: pointer;
+}
+
+.btn span {
+  display: flex;
+  align-items: center;
+  transform: skew(30deg);
+}
+
+.btn span img {
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color:#C692E4;
+  margin-right: 10px;
+  
+}
+
+.btn:hover {
+  background-color: #8574EB;
+  border: 1px solid #C692E4;
+  transition: background-color .3s ease-in-out;
+
+}
+

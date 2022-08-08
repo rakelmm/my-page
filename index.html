@@ -4,38 +4,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Minha Página Pessoal</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
- <main>
-  <header>
-    <h1>Minha página pessoal</h1>
-    <img 
-      src="https://github.com/rakelmm.png" 
-      alt="Foto de Raquel Moreira."
-    >
-    <p>
-      Olá, meu nome é <strong>Raquel Moreira</strong>, tenho 36 anos e resolvi 
-    entrar no mundo da tecnologia por pura curiosidade. Foi durante a pandemia que         essa vontade de aprender algo novo surgiu. Levei a ideia adiante e agora estou        aqui, cursando analise e desenvolvimento de sistemas, no Instituto Infnet.
-    </p>
+
+  <header class="cabecalho">
+    <a class="logo" href="#">My<span>Page</span>.</a>
+    <nav class="navigation">
+      <a href="https://github.com/rakelmm" target="_blank">
+        <img src="assets/github-logo.svg" alt="Icone do GitHub">
+      </a>
+      <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+        <img src="assets/envelope-open.svg" alt="Imagem de um envelope aberto">
+      </a>
+      <a href="https://www.linkedin.com/in/rakel-moreira-44364a182/" target="_blank">
+        <img src="assets/linkedin-logo.svg" alt="Logo do Linkedin">
+      </a>
+    </nav>
   </header>
-   <div>
-    <h2>Entre em contato</h2>
-    <ul>
-      <li>raquel.mendonca@al.infnet.edu.br</li>
-      <li>85 99845-6754 </li>
-      <li>R. Amauri Souza, 346</li>
-    </ul>
-  </div>
- </main>>
+
+  <main>
+    <article class="conteudo">
+      <section class="conteudo-principal">
+        <h1>Bem vindos a MyPage.</h1>
+        <p>
+          Olá, meu nome é Raquel Moreira, tenho 36 anos e resolvi entrar no mundo da tecnologia por pura curiosidade.
+        </p>
+        <details>
+          Foi durante a pandemia que essa vontade de aprender algo novo surgiu. Levei a ideia adiante e agora estou
+          aqui, cursando análise e desenvolvimento de sistemas, no Instituto Infnet.
+        </details>
+        <div class="button-container">
+          <a href="https://github.com/rakelmm" target="_blank">
+            <button class="btn btn-primary">
+              <span>
+                PORTFÓLIO
+              </span>
+            </button>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=+5585992017294&text=Oi!" target="blank">
+            <button class="btn btn-secundary">
+              <span>CONTATE-ME</span>
+            </button>
+          </a>
+        </div>
+      </section>
+
+      <img class="conteudo-principal-imagem" src="assets/note.svg" alt="Imagem de um notebook">
+    </article>
+
+  </main>
+
   <script src="script.js"></script>
 
- <!--
-This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
--->
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
 </body>
 
 </html>
